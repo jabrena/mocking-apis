@@ -10,8 +10,8 @@
     "features": {
         "ghcr.io/devcontainers/features/java:1": {
             "version": "none",
-            "installMaven": "false",
-            "installGradle": "true"
+            "installMaven": "true",
+            "installGradle": "false"
         },
         "ghcr.io/devcontainers/features/sshd:1": {
             "version": "latest"
@@ -36,7 +36,9 @@
                 "vmware.vscode-boot-dev-pack",
                 "vmware.vscode-spring-boot",
                 "ms-azuretools.vscode-docker",
-                "github.copilot"
+                "github.copilot",
+                "redhat.vscode-xml",
+                "redhat.vscode-yaml"
             ]
         }
     }
